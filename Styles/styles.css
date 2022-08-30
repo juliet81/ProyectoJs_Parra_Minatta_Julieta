@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Courier Prime', monospace;
 }
 
 /*------------Cabecera de la página---------------*/
@@ -24,6 +24,20 @@
 
 .footer__nav{
     background-image: linear-gradient(15deg,rgb(68, 96, 110), rgb(71, 97, 109), rgb(121, 132, 137), rgb(71, 97, 109),rgb(68, 96, 110));
+}
+.logoSinTacc{
+    height: 20px;
+    width: 20px;
+}
+/*
+.formulario.css{
+    max-width: 25em !important;
+    padding: 1.3em !important;
+    margin: 0 auto !important;
+    background-color: rgba(120, 119, 123, 0.3) !important;
+    font-weight: bold !important;
+    border-radius: 0.5 !important;
+    box-shadow: inset 1px 1px 1px 22px 4px rgba(0, 0, 0, 0.85) !important;
 }
 /*
 header{
