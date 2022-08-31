@@ -14,13 +14,13 @@
     <body>
         <header class="row" >
             <div class="container fluid">
-                <nav id="header__nav" class="navbar navbar-expand-lg color-nav">
+                <nav class="navbar navbar-expand-lg color-nav header__nav">
                     <div>
                         <img class="p-1" src="Images/Logo Nanáh_ok.jpg" alt="logo" width="100%" height="180px">
                     </div>
                     <div class="container-fluid">
                         <div>
-                            <a class="navbar-brand fs-1 colorBarra" href="#">Home</a>
+                            <a class="navbar-brand fs-1 colorBarra p-5" href="#">Home</a>
                         </div>  
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -82,42 +82,19 @@
                     </div>
             </div>
         </main>
-        <footer class="row">
-            <div class="container fluid">
-                <nav id="footer__nav" class="navbar navbar-expand-lg color-nav">                  
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse ml-auto">
-                            <ul class="navbar-nav estilos-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active colorBarra" aria-current="page" href="./index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link colorBarra" href="./Pages/galeria.html">Galería</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link colorBarra" href="./Pages/productos.html">Productos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link colorBarra" href="./Pages/quienessomos.html">Quienes somos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link colorBarra" href="./Pages/contacto.html">Contacto</a>
-                                </li>
-                            </ul>
-                      </div>
-                    </div>
-                    <section class="footer-social">
-                        <div>
-                            <h3>Seguinos</h3>
-                            <img src="./Images/instagram.png" alt="icono ig" width="50px" height="50px">
-                            <img src="./Images/facebook.png" alt="icono facebook" width="50px" height="50px">
-                        </div>
-                    </section>
-                  </nav> 
-            </div>
+        <footer class="row colorFooter">
+            <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="estilos-nav nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item "><a href="#" class="nav-link px-2 text-muted colorBarra">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted colorBarra">Galería</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted colorBarra ">Productos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted colorBarra">Quienes somos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted colorBarra">Contacto</a></li>
+                  </ul>
+                  <p class="text-center text-muted colorBarra">&copy; 2022 Company, Inc</p>
+                </footer>
+              </div>
         </footer>
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
