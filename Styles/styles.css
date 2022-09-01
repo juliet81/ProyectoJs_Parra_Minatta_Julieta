@@ -38,7 +38,7 @@
 }
 
 .main{
-    height: 1500px;
+    height: 900px;
     width: 100%;
     background-image:url(/Images/Fondo\ eucalipto-ok.jpg);
     background-repeat: no-repeat;
@@ -101,6 +101,8 @@
 .botonProductos{
     padding-top: 30px;
 }
+
+
 /*
 .formulario.css{
     max-width: 25em !important;
@@ -468,6 +470,3 @@ footer{
     padding: 20px;
 }
 /*Fin página quienes somos*/
-
-
-*/
