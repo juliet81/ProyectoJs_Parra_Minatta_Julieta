@@ -1,0 +1,13 @@
+.colorFooter{
+    background: $colorFooter;
+    .colorLetraFooter{
+        color: $colorLetraFooter !important;
+        &:hover{
+            color: $colorHoverFooter !important;
+            font-size: 35px;
+        }
+    }
+    .colorLetraFooterCo{
+        $colorLetraFooterCo: !important;
+    }
+}

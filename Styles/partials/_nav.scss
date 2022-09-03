@@ -1,0 +1,16 @@
+.color-nav{
+    background-image: $colorNav; 
+    
+}
+.estilos-nav{
+    font-size: 30px;
+    color:$colorLetraNav;
+}
+
+.colorLetraNav{
+    color:$colorLetraNav !important;
+    &:hover{
+        color:$colorHoverNav !important;
+        font-size: 35px;
+    }
+}
