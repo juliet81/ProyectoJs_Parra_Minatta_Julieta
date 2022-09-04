@@ -1,22 +1,31 @@
 @charset "UTF-8";
-/*reset*/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  font-family: "Courier Prime", monospace;
+.color-nav {
+  background-image: linear-gradient(15deg, rgb(68, 96, 110), rgb(71, 97, 109), rgb(121, 132, 137), rgb(71, 97, 109), rgb(68, 96, 110));
 }
 
-/*------------Cabecera de la página---------------*/
-.footer__nav {
-  background-image: linear-gradient(15deg, rgb(68, 96, 110), rgb(71, 97, 109), rgb(121, 132, 137), rgb(71, 97, 109), rgb(68, 96, 110));
+.estilos-nav {
+  font-size: 30px;
+  color: rgb(209, 216, 218);
+}
+
+.colorLetraNav {
+  color: rgb(209, 216, 218) !important;
+}
+.colorLetraNav:hover {
+  color: rgb(235, 125, 52) !important;
+  font-size: 35px;
 }
 
 .colorFooter {
   background: linear-gradient(15deg, rgb(68, 96, 110), rgb(71, 97, 109), rgb(121, 132, 137), rgb(71, 97, 109), rgb(68, 96, 110));
 }
-
+.colorFooter .colorLetraFooter {
+  color: rgb(209, 216, 218) !important;
+}
+.colorFooter .colorLetraFooter:hover {
+  color: rgb(235, 125, 52) !important;
+  font-size: 35px;
+}
 .main {
   height: 900px;
   width: 100%;
@@ -35,15 +44,14 @@
   background-position: center;
   background-size: 100%;
 }
-
-.contenedor {
+.mainProductos .contenedor {
   padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   justify-content: center;
 }
-.contenedor .tarjetaTortas {
+.mainProductos .contenedor .tarjetaTortas {
   width: 600px;
   height: 250px;
   border-radius: 8px;
@@ -55,33 +63,59 @@
   cursor: default;
   transition: all 0.25s rgba(0, 0, 0, 0.2);
 }
-.contenedor .tarjetaTortas:hover {
+.mainProductos .contenedor .tarjetaTortas:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px;
 }
-.contenedor .tarjetaTortas img {
+.mainProductos .contenedor .tarjetaTortas img {
   float: left;
   width: 250px;
   height: 250px;
 }
-.contenedor .tarjetaTortas h3 {
+.mainProductos .contenedor .tarjetaTortas h3 {
   font-size: 40px;
   font-weight: 550;
 }
-.contenedor .tarjetaTortas h4 {
+.mainProductos .contenedor .tarjetaTortas h4 {
   font-size: 25px;
   font-weight: 500;
   font-weight: 400;
   padding-bottom: 5px;
 }
-.contenedor .tarjetaTortas h5 {
+.mainProductos .contenedor .tarjetaTortas h5 {
   font-size: 20px;
 }
-.contenedor .botonProductos {
+.mainProductos .contenedor .botonProductos {
   padding-top: 30px;
+}
+
+.main {
+  height: 900px;
+  width: 100%;
+  background-image: url(/Images/Fondo\ eucalipto-ok.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.main {
+  height: 900px;
+  width: 100%;
+  background-image: url(/Images/Fondo\ eucalipto-ok.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .logoSinTacc {
   height: 20px;
   width: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Courier Prime", monospace;
 }/*# sourceMappingURL=style.css.map */

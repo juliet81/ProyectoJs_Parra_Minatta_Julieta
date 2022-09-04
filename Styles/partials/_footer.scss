@@ -1,13 +1,13 @@
 .colorFooter{
-    background: $colorFooter;
-    .colorLetraFooter{
-        color: $colorLetraFooter !important;
+    background: map-get($colorBarras , colorFooter);
+    .colorLinksFooter{
+        color: map-get($colorlinks , colorLinksFooter) !important;
         &:hover{
-            color: $colorHoverFooter !important;
+            color: map-get($colorHovers , colorHoverFooter)!important;
             font-size: 35px;
         }
     }
-    .colorLetraFooterCo{
-        $colorLetraFooterCo: !important;
+    .colorFirmaFooter{
+        color: map-get($colorFirmaFooter , colorFirmaFooter) !important;
     }
 }

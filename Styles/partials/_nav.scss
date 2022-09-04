@@ -1,16 +1,16 @@
 .color-nav{
-    background-image: $colorNav; 
+    background-image: map-get($colorBarras, colorNav); 
     
 }
 .estilos-nav{
     font-size: 30px;
-    color:$colorLetraNav;
+    color: map-get($colorlinks, colorLinkNav);
 }
 
-.colorLetraNav{
-    color:$colorLetraNav !important;
+.colorLinksNav{
+    color: map-get($colorlinks, colorLinkNav) !important;
     &:hover{
-        color:$colorHoverNav !important;
+        color: map-get($colorHovers, colorHoverNav) !important;
         font-size: 35px;
     }
 }

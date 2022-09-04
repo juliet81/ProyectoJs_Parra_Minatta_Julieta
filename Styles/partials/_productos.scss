@@ -2,7 +2,7 @@
 .mainProductos{
     height: 1100px;
     width: 100%;
-    background-image:$backgroudpages;
+    background-image:map-get($backgroudpages , backgroudpages);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -46,8 +46,14 @@
                 font-size: 20px;
             }
             }
-        .botonProductos{
-            padding-top: 30px;
-        }    
+        .button{
+            border: none;
+            padding: 10px;
+            border-radius: 03px;
+            border-bottom: 03px solid;
+            cursor: pointer;
+            background-color: map-get($colorbutton, colorButtonProductos);
+            color:map-get($colorbutton, colorFuenteButtonProductos);
+        }
     }
 }
