@@ -1,0 +1,14 @@
+%buttonBasic{
+    border: none;
+    padding: 10px;
+    border-radius: 03px;
+    border-bottom: 03px solid;
+    cursor: pointer;
+}
+
+%displayRowCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
