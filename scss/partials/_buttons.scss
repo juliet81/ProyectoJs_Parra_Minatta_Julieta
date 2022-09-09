@@ -1,7 +1,0 @@
-.primario{
-    @extend %buttonBasic;
-}
-
-.button{
-    @include buttons(rgb(21, 130, 84),rgb(209, 216, 218), rgb(0, 0, 0), $radius:true);
-}
