@@ -46,6 +46,7 @@
     color:rgb(209, 216, 218);
 }
 
+
 /*----------------------------Página index----------------------------*/
 .contenedorIndex1{
     display: flex;
@@ -70,16 +71,17 @@
 .titulosIndex-1 h2{
     font-size: 50px;
 }
-.contenedorIndex2{
+#index2{
     display: flex;
-    height: 350px;
+    height: 2300px;
     width: 100%;
     background-image:url(/Images/Fondo\ madera.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    padding: 30px;
+    justify-content: center;
 }
+
 .titulosIndex2{
     text-align: center;
     font-style: italic;
@@ -98,6 +100,7 @@
     width: 140px;
     height: 150px;
 }
+
 /*----------------------------Página productos----------------------------*/
 .mainProductos{
     display: flex;
