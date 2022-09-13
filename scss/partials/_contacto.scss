@@ -1,0 +1,16 @@
+/*----------------------------Página de Contacto----------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: $primaryFont;
+}
+.mainContacto{
+    height: 700px;
+    width: 100%;
+    background-image: url(/Images/Fondo\ eucalipto-ok.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

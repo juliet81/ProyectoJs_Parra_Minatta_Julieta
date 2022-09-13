@@ -1,0 +1,68 @@
+/*----------------------------Página index----------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.contenedorIndex1{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    background-image: url(/Images/Fondo\ madera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+        .titulosIndex-1{
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-40%);
+            font-style: italic;
+            font-family: $secondaryFont;
+        }
+        .logoSinTacc{
+            height: 100px;
+            width: 100px;
+        }
+        .titulosIndex-1 h1{
+            font-size: 80px;
+            font-family: $secondaryFont;
+        }
+        .titulosIndex-1 h2{
+            font-size: 70px;
+            font-family: $secondaryFont;
+        }
+}
+
+#index2{
+    display: flex;
+    height: 2300px;
+    width: 100%;
+    background-image:url(/Images/Fondo\ madera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    justify-content: center;
+        .titulosIndex2{
+            text-align: center;
+            font-style: italic;
+            font-family: $secondaryFont;
+        }
+        .titulosIndex2 h2{
+            font-size: 80px;
+            font-family: $secondaryFont;
+        }
+        .logosRedes{
+            padding: 30px;
+        }
+        .logoFb{
+            width: 150px;
+            height: 150px;
+        }
+        .logoIg{
+            width: 140px;
+            height: 150px;
+        }
+}
