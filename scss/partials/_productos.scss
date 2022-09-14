@@ -33,7 +33,7 @@
         }
     }
     .contenedor .tarjetaTortas{
-        width: 600px;
+        width: 650px;
         height: 250px;
         border-radius: 8px;
         overflow: hidden;
@@ -52,21 +52,25 @@
          float: left;
         width: 250px;
         height: 250px;
+        padding: 10px;
     }
-    .contenedor .tarjetaTortas h3{
-        font-size: 40px;
-        font-weight: 550;
+    .descripcionCard{
+        
+        h3{
+            font-size: 40px;
+            font-weight: 550;
+        }
+        h4{
+            font-size: 25px;
+            font-weight: 500;
+            font-weight: 400;
+            padding-bottom: 5px;
+        }
+        h5{
+            font-size: 20px;
+        }
     }
-    .contenedor .tarjetaTortas h4{
-        font-size: 25px;
-        font-weight: 500;
-        font-weight: 400;
-        padding-bottom: 5px;
-    }
-    .contenedor .tarjetaTortas h5{
-        font-size: 20px;
-    }
-    .botonProductos{
-        padding-top: 30px;
+    .boton{
+        
     }
 }

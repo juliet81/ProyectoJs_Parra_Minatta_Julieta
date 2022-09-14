@@ -36,9 +36,9 @@
         }
 }
 
-#index2{
+.index2{
     display: flex;
-    height: 2300px;
+    height: 400px;
     width: 100%;
     background-image:url(/Images/Fondo\ madera.jpg);
     background-repeat: no-repeat;
@@ -65,4 +65,8 @@
             width: 140px;
             height: 150px;
         }
+}
+.carousel{
+    justify-content: center;
+    background-image:url(/Images/Fondo\ eucalipto.jpg);
 }
