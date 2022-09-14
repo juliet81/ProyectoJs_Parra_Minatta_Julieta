@@ -4,15 +4,15 @@
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:  map-get($fonts, primaryFont);
 }
 .mainProductos{
     display: flex;
     height: 1200px;
     width: 100%;
-    background-image:url(/Images/Fondo\ madera.jpg);
+    background-image:url(/Images/Fondo\ eucalipto-ok.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: cover;
     background-size: 100%;
     .logoSinTacc{
         height: 100px;
@@ -29,7 +29,7 @@
             text-align: center;
             font-weight: 500;
             font-size: 100px;
-            font-family: 'Dancing Script', cursive;
+            font-family:  map-get($fonts, secondaryFont);
         }
     }
     .contenedor .tarjetaTortas{

@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-family: $primaryFont;
+    font-family: map-get($fonts, primaryFont);
 }
 .mainContacto{
     height: 700px;

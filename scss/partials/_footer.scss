@@ -1,7 +1,7 @@
 /*----------------------------Footer----------------------------*/
 
 .colorFooter{
-    font-family:'Courier New', Courier, monospace;
+    font-family: map-get($fonts, primaryFont);
     background: map-get($links, colorFooter);
         .colorLinksFooter{
             font-size: 30px;
