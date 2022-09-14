@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-family: $primaryFont;
+    font-family: 'Courier New', Courier, monospace;
 }
 .mainProductos{
     display: flex;
@@ -29,7 +29,7 @@
             text-align: center;
             font-weight: 500;
             font-size: 100px;
-            font-family: $secondaryFont;
+            font-family: 'Dancing Script', cursive;
         }
     }
     .contenedor .tarjetaTortas{
