@@ -1,18 +1,15 @@
 /*------------Cabecera de la página---------------*/
-.color-nav{
+.navbar{
+    box-sizing: border-box;
+    background: map-get($colours, navShadow);
     font-family: map-get($fonts, primaryFont);
-    background-image: map-get($links, colorNav) ;
-        .colorTitleNav{
-            font-size: 40px;
-            color:map-get($links, colorTitleNav) ;
-        }
         .colorLinksNav{
             font-size: 30px;
             color: map-get($links, colorLinksNav) ;
             transition: 0.5s ease;
             &:hover{
                 color: map-get($links, colorHoverNav);
-                font-size: 35px;
+                font-size: 40px;
             }
         }
 }

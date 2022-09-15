@@ -1,8 +1,9 @@
 /*----------------------------Footer----------------------------*/
 
 .colorFooter{
+    box-sizing: border-box;
+    background: map-get($colours, navShadow);
     font-family: map-get($fonts, primaryFont);
-    background: map-get($links, colorFooter);
         .colorLinksFooter{
             font-size: 30px;
             color:map-get($links, colorLinksFooter);
