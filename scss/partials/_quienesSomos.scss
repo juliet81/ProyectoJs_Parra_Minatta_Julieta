@@ -18,10 +18,10 @@
         width: 100px;
     }
     .titleQuienesSomos{
-    padding: 20px;
     text-align: center;
     font-weight: 500;
-    font-size: 70px;
+    font-size: 80px;
+    font-family:  map-get($fonts, secondaryFont);
     }
     .article__quienes-somos{
     text-align: center;

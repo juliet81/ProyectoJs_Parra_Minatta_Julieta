@@ -25,9 +25,8 @@
   color: rgb(255, 255, 255);
   transition: 0.5s ease;
 }
-.navbar .colorLinksNav:hover {
-  color: rgb(235, 125, 52);
-  font-size: 40px;
+.navbar .navbar-nav .nav-link:hover {
+  background-color: rgb(235, 125, 52);
 }
 
 /*----------------------------Footer----------------------------*/
@@ -41,12 +40,11 @@
   color: rgb(209, 216, 218);
   transition: 0.5s ease;
 }
-.colorFooter .colorLinksFooter:hover {
-  color: rgb(235, 125, 52);
-  font-size: 35px;
-}
 .colorFooter .colorFirmaFooter {
   color: rgb(209, 216, 218);
+}
+.colorFooter .footer .nav .nav-link:hover {
+  background-color: rgb(235, 125, 52);
 }
 
 /*----------------------------Página index----------------------------*/
@@ -275,10 +273,10 @@
   width: 100px;
 }
 .mainQuienesSomos .titleQuienesSomos {
-  padding: 20px;
   text-align: center;
   font-weight: 500;
-  font-size: 70px;
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
 }
 .mainQuienesSomos .article__quienes-somos {
   text-align: center;

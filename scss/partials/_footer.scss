@@ -8,12 +8,11 @@
             font-size: 30px;
             color:map-get($links, colorLinksFooter);
             transition: 0.5s ease;
-            &:hover{
-                color: map-get($links, colorHoverFooter);
-                font-size: 35px;
-            }
-        }       
+        }
         .colorFirmaFooter{
             color:map-get($links, colorFirmaFooter);
+        }
+        .footer .nav .nav-link:hover{
+            background-color: map-get($links, colorHoverFooter);
         }
 }
