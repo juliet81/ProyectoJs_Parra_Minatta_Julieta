@@ -6,45 +6,21 @@
     list-style-type: none;
     font-family:  map-get($fonts, primaryFont);
 }
-.contenedorGaleria{
+.mainGaleria{
     height: 2000px;
     width: 100%;
-    display: flex;
-    flex-wrap:wrap;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
     background-image:url(/Images/Fondo\ eucalipto.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
+    padding: 20px;
     .logoSinTacc{
         height: 100px;
         width: 100px;
-    } 
-    .titleGaleria{
-        text-align: center;
-        font-weight: 500;
-        font-size: 80px;
-        font-family:  map-get($fonts, secondaryFont);
     }
-    .tarjetaGaleria{
-        width: 450px;
-        height: 480px;
-        border-radius: 8px;
-        overflow: hidden;
-        background-color: #fff;
-        margin: 20px;
-        text-align: center;
-        cursor: default;
-        box-shadow: -5px 6px rgba(0,0,0,0.5);
-     }
-    .tarjetaGaleria img{
-        width: 400px;
-        height: 400px;
-        .tarjetaGaleria h3{
-            font-size: 30px;
-            font-weight: 550;
-        
-        }    
+    .titleGaleria{
+    text-align: center;
+    font-weight: 500;
+    font-size: 80px;
+    font-family:  map-get($fonts, secondaryFont);
     }
 }
