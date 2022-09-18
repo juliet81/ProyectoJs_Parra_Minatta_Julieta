@@ -19,6 +19,7 @@
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.5);
   font-family: "Courier Prime", monospace;
+  padding-right: 30px;
 }
 .navbar .colorLinksNav {
   font-size: 30px;
@@ -40,11 +41,11 @@
   color: rgb(209, 216, 218);
   transition: 0.5s ease;
 }
-.colorFooter .colorFirmaFooter {
-  color: rgb(209, 216, 218);
-}
 .colorFooter .footer .nav .nav-link:hover {
   background-color: rgb(235, 125, 52);
+}
+.colorFooter .colorFirmaFooter {
+  color: rgb(209, 216, 218);
 }
 
 /*----------------------------Página index----------------------------*/
@@ -146,6 +147,12 @@
   font-weight: 500;
   font-size: 80px;
   font-family: "Dancing Script", cursive;
+  padding-bottom: 30px;
+}
+.mainGaleria .contenedorGaleria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /*----------------------------Página productos----------------------------*/
