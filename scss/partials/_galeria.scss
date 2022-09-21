@@ -18,16 +18,11 @@
         width: 100px;
     }
     .titleGaleria{
-    text-align: center;
-    font-weight: 500;
-    font-size: 80px;
-    font-family:  map-get($fonts, secondaryFont);
-    padding-bottom: 30px;
-    }
-    .contenedorGaleria{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-       
-    }
+        text-align: center;
+        font-weight: 500;
+        font-size: 80px;
+        font-family:  map-get($fonts, secondaryFont);
+        padding-bottom: 30px;
+        }
+    
 }

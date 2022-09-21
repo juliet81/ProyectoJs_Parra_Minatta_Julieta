@@ -7,10 +7,24 @@
     font-family: map-get($fonts, primaryFont);
 }
 .mainContacto{
-    height: 700px;
+    height: 900px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(/Images/Fondo\ eucalipto-ok.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+   
+}
+.form{
+    max-width: 35em;
+    padding: 1em;
+    margin: 0 auto;
+    background-color: rgba(120, 119, 123, 0.3);
+    font-weight: bold;
+    border-radius: 0.5rem;
+    box-shadow: inset 1px 2px 22px 4px rgba(0, 0, 0, 0.85);
 }

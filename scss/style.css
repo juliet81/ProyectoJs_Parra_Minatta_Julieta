@@ -149,11 +149,6 @@
   font-family: "Dancing Script", cursive;
   padding-bottom: 30px;
 }
-.mainGaleria .contenedorGaleria {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
 /*----------------------------Página productos----------------------------*/
 * {
@@ -165,66 +160,47 @@
 }
 
 .mainProductos {
-  display: flex;
-  height: 1200px;
-  width: 100%;
-  background-image: url(/Images/Fondo\ eucalipto-ok.jpg);
-  background-repeat: no-repeat;
-  background-position: cover;
-  background-size: 100%;
+  background: url(/Images/Mesa\ desayuno.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 1300px;
+  position: relative;
+  padding: 20px;
 }
 .mainProductos .logoSinTacc {
   height: 100px;
   width: 100px;
 }
-.mainProductos .contenedor {
-  padding-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  justify-content: center;
-}
-.mainProductos .contenedor .titleProd {
-  padding: 20px;
+.mainProductos .titleProd {
   text-align: center;
   font-weight: 500;
-  font-size: 100px;
+  font-size: 80px;
   font-family: "Dancing Script", cursive;
+  padding-bottom: 30px;
 }
-.mainProductos .contenedor .tarjetaTortas {
-  width: 650px;
-  height: 250px;
+.mainProductos .card {
+  width: 90%;
+  max-width: 400px;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+  border-top-color: rgba(225, 225, 225, 0.5);
+  border-left-color: rgba(225, 225, 225, 0.5);
+  border-right-color: rgba(225, 225, 225, 0.1);
+  border-bottom-color: rgba(225, 225, 225, 0.1);
+}
+.mainProductos .imagen {
   border-radius: 8px;
-  overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  margin: 20px;
-  text-align: center;
-  cursor: default;
-  transition: all 0.25s rgba(0, 0, 0, 0.2);
 }
-.mainProductos .contenedor .tarjetaTortas:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px;
+.mainProductos .cb1 {
+  color: aliceblue;
+  background-color: rgba(225, 225, 225, 0.1);
 }
-.mainProductos .contenedor .tarjetaTortas img {
-  float: left;
-  width: 250px;
-  height: 250px;
-  padding: 10px;
-}
-.mainProductos .descripcionCard h3 {
-  font-size: 40px;
-  font-weight: 550;
-}
-.mainProductos .descripcionCard h4 {
-  font-size: 25px;
-  font-weight: 500;
-  font-weight: 400;
-  padding-bottom: 5px;
-}
-.mainProductos .descripcionCard h5 {
-  font-size: 20px;
+.mainProductos .cb2 {
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.3));
 }
 
 /*----------------------------Página quienes somos----------------------------*/
@@ -270,10 +246,24 @@
 }
 
 .mainContacto {
-  height: 700px;
+  height: 900px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(/Images/Fondo\ eucalipto-ok.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+}
+
+.form {
+  max-width: 35em;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: rgba(120, 119, 123, 0.3);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  box-shadow: inset 1px 2px 22px 4px rgba(0, 0, 0, 0.85);
 }/*# sourceMappingURL=style.css.map */
