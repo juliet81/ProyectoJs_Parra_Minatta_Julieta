@@ -6,23 +6,18 @@
     list-style-type: none;
     font-family: map-get($fonts, primaryFont);
 }
-.mainContacto{
-    height: 900px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/Images/Fondo\ eucalipto-ok.jpg);
-    background-repeat: no-repeat;
+.headerContacto{
+    background: url(/Images/Fondo\ contacto2.jpg) no-repeat center;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-   
+    position: relative;
+    height: 1200px;
+    justify-content: center;
 }
 .form{
     max-width: 35em;
     padding: 1em;
     margin: 0 auto;
+    color: rgb(0, 0, 0);
     background-color: rgba(120, 119, 123, 0.3);
     font-weight: bold;
     border-radius: 0.5rem;
