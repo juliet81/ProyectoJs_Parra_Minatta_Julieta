@@ -159,25 +159,25 @@
   font-family: "Courier Prime", monospace;
 }
 
-.mainProductos {
+.headerProductos {
   background: url(/Images/Mesa\ desayuno.jpg) no-repeat center;
   background-size: cover;
-  min-height: 1300px;
   position: relative;
+  height: 1500px;
+}
+
+.logoSinTacc {
   padding: 20px;
 }
-.mainProductos .logoSinTacc {
-  height: 100px;
-  width: 100px;
-}
-.mainProductos .titleProd {
+
+.titleProd {
   text-align: center;
   font-weight: 500;
   font-size: 80px;
   font-family: "Dancing Script", cursive;
-  padding-bottom: 30px;
 }
-.mainProductos .card {
+
+.card {
   width: 90%;
   max-width: 400px;
   padding: 1rem 1rem;
@@ -191,15 +191,17 @@
   border-right-color: rgba(225, 225, 225, 0.1);
   border-bottom-color: rgba(225, 225, 225, 0.1);
 }
-.mainProductos .imagen {
+
+.imagen {
   border-radius: 8px;
 }
-.mainProductos .cb1 {
-  color: aliceblue;
+
+.cb1 {
+  color: rgb(0, 0, 0);
   background-color: rgba(225, 225, 225, 0.1);
 }
-.mainProductos .cb2 {
-  color: rgb(0, 0, 0);
+
+.cb2 {
   background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.3));
 }
 

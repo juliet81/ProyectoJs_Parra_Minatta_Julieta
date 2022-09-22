@@ -6,22 +6,22 @@
     list-style-type: none;
     font-family:  map-get($fonts, primaryFont);
 }
-.mainProductos{
+.headerProductos{
     background: url(/Images/Mesa\ desayuno.jpg) no-repeat center;
     background-size: cover;
-    min-height: 1300px;
-    position: relative; 
-    padding: 20px;
+    position: relative;
+    height: 1500px;
+
+}
     .logoSinTacc{
-        height: 100px;
-        width: 100px;
-    }
+        padding: 20px;
+}
     .titleProd{
-    text-align: center;
-    font-weight: 500;
-    font-size: 80px;
-    font-family:  map-get($fonts, secondaryFont);
-    padding-bottom: 30px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 80px;
+        font-family:  map-get($fonts, secondaryFont);
+        
     }
     .card{
         width: 90%;
@@ -40,11 +40,10 @@
         border-radius: 8px;
     }
     .cb1{
-        color: aliceblue;
+        color: rgb(0, 0, 0, );
         background-color: rgba(225, 225, 225, 0.1);
     }
     .cb2{
-        color: rgb(0, 0, 0);
+       
         background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225,0.3));
     }
-}
