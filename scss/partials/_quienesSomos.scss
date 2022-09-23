@@ -6,3 +6,14 @@
     list-style-type: none;
     font-family:  map-get($fonts, primaryFont);
 }
+.carousel-caption{
+    box-sizing: border-box;
+    background: map-get($colours, navShadow);
+
+}
+.carousel-caption h1{
+    font-size: 80px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}

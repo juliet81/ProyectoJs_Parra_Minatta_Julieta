@@ -84,45 +84,67 @@
     </div>
     <main class="mainQuienesSomos container-fluid">
       <div class="row">
-        <div>
-          <div>
-            <img
-              class="logoSinTacc"
-              src="/Images/logo sin tacc.png"
-              alt="logo sin tacc"
-            />
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <h1 class="titleQuienesSomos">Quienes somos</h1>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/Images/Tarta frutilla.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>CONOCENOS</h1>
+                <p>
+                  Nanáh sin gluten es un emprendimiento de panadería y pastelería sin
+                  TACC, que nació en plena pandemia. Las creadoras somos Betsabé y
+                  Julieta.
+                </p>
+                <p>
+                  Betsabé es celíaca y tuvo la brillante idea de abrirnos camino en
+                  este rubro colmado de desafíos y satisfacciones; hace también magia
+                  con la estética de nuestras fotos y redes. Empezó a dar sus primeros
+                  pasitos en la gastronomía, descubriendo cuánta habilidad poseía!
+                </p>
+      
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/Images/Alfajores de maicena.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>
+                  Y la otra mitad, Julieta, aportó sus conocimientos en Panadería y
+                  Pastelería. Pero debió aprender a realizar las preparaciones sin
+                  glúten.
+                </p>
+                <p>
+                  El nombre se debe a que Julieta tuvo sus comienzos en la gastronomía
+                  junto a su amada abuela en la niñez. A ella le decían Naná,
+                  lamentablemente por razones legales no pudimos poner su nombre
+                  legítimo, pero buscamos ser fieles a su esencia
+                </p>      
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/Images/Tiramisu.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>
+                  Procuramos mantener el mejor estándar de calidad, utilizando siempre
+                  materia prima de primeras marcas. En Nanáh sin glúten cocinamos con
+                  pasión pero sobre todo con mucho amor!
+                </p>      
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <article class="article__quienes-somos">
-          <p>
-            Nanáh sin gluten es un emprendimiento de panadería y pastelería sin
-            TACC, que nació en plena pandemia. Las creadoras somos Betsabé y
-            Julieta.
-          </p>
-          <p>
-            Betsabé es celíaca y tuvo la brillante idea de abrirnos camino en
-            este rubro colmado de desafíos y satisfacciones; hace también magia
-            con la estética de nuestras fotos y redes. Empezó a dar sus primeros
-            pasitos en la gastronomía, descubriendo cuánta habilidad poseía!
-          </p>
-          <p>
-            Y la otra mitad, Julieta, aportó sus conocimientos en Panadería y
-            Pastelería. Pero debió aprender a realizar las preparaciones sin
-            glúten.
-          </p>
-          <p>
-            El nombre se debe a que Julieta tuvo sus comienzos en la gastronomía
-            junto a su amada abuela en la niñez. A ella le decían Naná,
-            lamentablemente por razones legales no pudimos poner su nombre
-            legítimo, pero buscamos ser fieles a su esencia
-          </p>
-          <p>
-            Procuramos mantener el mejor estándar de calidad, utilizando siempre
-            materia prima de primeras marcas. En Nanáh sin glúten cocinamos con
-            pasión pero sobre todo con mucho amor!
-          </p>
-        </article>
       </div>
     </main>
     <footer class="row colorFooter">
@@ -139,5 +161,7 @@
           </footer>
         </div>
   </footer>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>

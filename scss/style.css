@@ -214,6 +214,19 @@
   font-family: "Courier Prime", monospace;
 }
 
+.carousel-caption {
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h1 {
+  font-size: 80px;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+}
+
 /*----------------------------Página de Contacto----------------------------*/
 * {
   padding: 0;
