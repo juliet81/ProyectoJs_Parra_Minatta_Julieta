@@ -34,38 +34,3 @@
             font-family: map-get($fonts, secondaryFont);
         }
 }
-
-.index2{
-    display: flex;
-    height: 400px;
-    width: 100%;
-    background-image:url(/Images/Fondo\ madera.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    text-align: center;
-    padding-top: 30px;
-        .titulosIndex2{
-            font-style: italic;
-            font-family:  map-get($fonts, secondaryFont);
-        }
-        .titulosIndex2 h2{
-            font-size: 80px;
-            font-family:  map-get($fonts, secondaryFont);
-        }
-        .logosRedes{
-            padding: 30px;
-        }
-        .logoFb{
-            width: 150px;
-            height: 150px;
-        }
-        .logoIg{
-            width: 140px;
-            height: 150px;
-        }
-}
-.carousel{
-    justify-content: center;
-    background-image:url(/Images/Fondo\ eucalipto.jpg);
-}

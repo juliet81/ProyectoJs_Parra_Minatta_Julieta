@@ -48,6 +48,32 @@
   color: rgb(209, 216, 218);
 }
 
+.tituloRedes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(209, 216, 218);
+  font-style: italic;
+  font-family: "Dancing Script", cursive;
+}
+
+.tituloRedes h2 {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 10px;
+}
+
+.logoFb {
+  width: 60px;
+  height: 60px;
+}
+
+.logoIg {
+  width: 60px;
+  height: 60px;
+}
+
 /*----------------------------Página index----------------------------*/
 * {
   padding: 0;
@@ -83,42 +109,6 @@
 .contenedorIndex1 .titulosIndex-1 h2 {
   font-size: 70px;
   font-family: "Dancing Script", cursive;
-}
-
-.index2 {
-  display: flex;
-  height: 400px;
-  width: 100%;
-  background-image: url(/Images/Fondo\ madera.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: center;
-  text-align: center;
-  padding-top: 30px;
-}
-.index2 .titulosIndex2 {
-  font-style: italic;
-  font-family: "Dancing Script", cursive;
-}
-.index2 .titulosIndex2 h2 {
-  font-size: 80px;
-  font-family: "Dancing Script", cursive;
-}
-.index2 .logosRedes {
-  padding: 30px;
-}
-.index2 .logoFb {
-  width: 150px;
-  height: 150px;
-}
-.index2 .logoIg {
-  width: 140px;
-  height: 150px;
-}
-
-.carousel {
-  justify-content: center;
-  background-image: url(/Images/Fondo\ eucalipto.jpg);
 }
 
 /*----------------------------Página Galería----------------------------*/
