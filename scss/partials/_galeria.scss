@@ -6,23 +6,3 @@
     list-style-type: none;
     font-family:  map-get($fonts, primaryFont);
 }
-.mainGaleria{
-    height: 2000px;
-    width: 100%;
-    background-image:url(/Images/Fondo\ eucalipto.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    padding: 20px;
-    .logoSinTacc{
-        height: 100px;
-        width: 100px;
-    }
-    .titleGaleria{
-        text-align: center;
-        font-weight: 500;
-        font-size: 80px;
-        font-family:  map-get($fonts, secondaryFont);
-        padding-bottom: 30px;
-        }
-    
-}

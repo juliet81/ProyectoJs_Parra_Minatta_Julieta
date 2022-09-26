@@ -120,26 +120,6 @@
   font-family: "Courier Prime", monospace;
 }
 
-.mainGaleria {
-  height: 2000px;
-  width: 100%;
-  background-image: url(/Images/Fondo\ eucalipto.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px;
-}
-.mainGaleria .logoSinTacc {
-  height: 100px;
-  width: 100px;
-}
-.mainGaleria .titleGaleria {
-  text-align: center;
-  font-weight: 500;
-  font-size: 80px;
-  font-family: "Dancing Script", cursive;
-  padding-bottom: 30px;
-}
-
 /*----------------------------Página productos----------------------------*/
 * {
   padding: 0;
