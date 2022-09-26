@@ -6,6 +6,9 @@
     list-style-type: none;
     font-family:  map-get($fonts, primaryFont);
 }
+.body {
+    background-image: url(/Images/fondo\ body\ 2.jpg);
+  }
 .carousel-caption{
     box-sizing: border-box;
     background: map-get($colours, navShadow);

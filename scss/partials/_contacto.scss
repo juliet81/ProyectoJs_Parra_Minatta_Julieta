@@ -6,6 +6,9 @@
     list-style-type: none;
     font-family: map-get($fonts, primaryFont);
 }
+.body {
+    background-image: url(/Images/fondo\ body\ 2.jpg);
+  }
 .headerContacto{
     background: url(/Images/Fondo\ contacto2.jpg) no-repeat center;
     background-size: cover;

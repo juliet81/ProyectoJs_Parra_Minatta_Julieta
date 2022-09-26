@@ -6,6 +6,9 @@
     list-style-type: none;
     font-family:  map-get($fonts, primaryFont);
 }
+.body {
+    background-image: url(/Images/fondo\ body\ 2.jpg);
+  }
 .headerProductos{
     background: url(/Images/Mesa\ desayuno.jpg) no-repeat center;
     background-size: cover;

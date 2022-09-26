@@ -82,6 +82,10 @@
   list-style-type: none;
 }
 
+.body {
+  background-image: url(/Images/fondo\ body\ 2.jpg);
+}
+
 .header {
   background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
   background-size: cover;
@@ -127,6 +131,10 @@
   box-sizing: border-box;
   list-style-type: none;
   font-family: "Courier Prime", monospace;
+}
+
+.body {
+  background-image: url(/Images/fondo\ body\ 2.jpg);
 }
 
 .headerProductos {
@@ -184,6 +192,10 @@
   font-family: "Courier Prime", monospace;
 }
 
+.body {
+  background-image: url(/Images/fondo\ body\ 2.jpg);
+}
+
 .carousel-caption {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.5);
@@ -204,6 +216,10 @@
   box-sizing: border-box;
   list-style-type: none;
   font-family: "Courier Prime", monospace;
+}
+
+.body {
+  background-image: url(/Images/fondo\ body\ 2.jpg);
 }
 
 .headerContacto {
