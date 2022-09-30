@@ -37,7 +37,7 @@
   font-family: "Courier Prime", monospace;
 }
 .colorFooter .colorLinksFooter {
-  font-size: 30px;
+  font-size: 10px;
   color: rgb(209, 216, 218);
   transition: 0.5s ease;
 }
@@ -45,7 +45,13 @@
   background-color: rgb(235, 125, 52);
 }
 .colorFooter .colorFirmaFooter {
+  padding-top: 2px;
+  font-size: 5px;
   color: rgb(209, 216, 218);
+}
+
+.nav {
+  padding-bottom: 2px;
 }
 
 .tituloRedes {
@@ -59,21 +65,41 @@
 }
 
 .tituloRedes h2 {
-  font-size: 50px;
+  font-size: 20px;
   font-family: "Dancing Script", cursive;
-  padding-top: 10px;
+  padding-top: 2px;
 }
 
 .logoFb {
-  width: 60px;
-  height: 60px;
+  width: 20px;
+  height: 20px;
 }
 
 .logoIg {
-  width: 60px;
-  height: 60px;
+  width: 20px;
+  height: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .colorFooter .colorLinksFooter {
+    font-size: 30px;
+  }
+  .colorFooter .colorFirmaFooter {
+    font-size: 15px;
+  }
+  .tituloRedes h2 {
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .logoFb {
+    width: 60px;
+    height: 60px;
+  }
+  .logoIg {
+    width: 60px;
+    height: 60px;
+  }
+}
 /*----------------------------Página index----------------------------*/
 * {
   padding: 0;
@@ -153,6 +179,23 @@
   font-family: "Courier Prime", monospace;
 }
 
+.logoNav {
+  height: 50px;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .logoNav {
+    height: 160px;
+  }
+  .titulo {
+    font-size: 80px;
+  }
+}
 /*----------------------------Página productos----------------------------*/
 * {
   padding: 0;
@@ -225,19 +268,55 @@
   background-image: url(/Images/fondo\ body\ 2.jpg);
 }
 
+.main {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption {
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.logoNav {
+  height: 50px;
+  width: 100%;
+}
+
 .carousel-caption {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .carousel-caption h1 {
-  font-size: 80px;
+  font-size: 10px;
 }
 
 .carousel-caption p {
-  font-size: 20px;
+  font-size: 5px;
 }
 
+@media screen and (min-width: 768px) {
+  .main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoNav {
+    height: 160px;
+  }
+  .carousel-caption h1 {
+    font-size: 80px;
+  }
+  .carousel-caption p {
+    font-size: 20px;
+  }
+}
 /*----------------------------Página de Contacto----------------------------*/
 * {
   padding: 0;
@@ -249,6 +328,11 @@
 
 .body {
   background-image: url(/Images/fondo\ body\ 2.jpg);
+}
+
+.logoNav {
+  height: 50px;
+  width: 100%;
 }
 
 .headerContacto {
@@ -268,4 +352,10 @@
   font-weight: bold;
   border-radius: 0.5rem;
   box-shadow: inset 1px 2px 22px 4px rgba(0, 0, 0, 0.85);
+}
+
+@media screen and (min-width: 768px) {
+  .logoNav {
+    height: 160px;
+  }
 }/*# sourceMappingURL=style.css.map */

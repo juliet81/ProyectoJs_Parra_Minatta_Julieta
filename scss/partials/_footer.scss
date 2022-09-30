@@ -1,11 +1,10 @@
 /*----------------------------Footer----------------------------*/
-
 .colorFooter{
     box-sizing: border-box;
     background: map-get($colours, navShadow);
     font-family: map-get($fonts, primaryFont);
         .colorLinksFooter{
-            font-size: 30px;
+            font-size: 10px;
             color:map-get($links, colorLinksFooter);
             transition: 0.5s ease;
         }
@@ -13,9 +12,14 @@
             background-color: map-get($links, colorHoverFooter);
         }
         .colorFirmaFooter{
+            padding-top: 2px;
+            font-size: 5px;
             color:map-get($links, colorFirmaFooter);
         }
         
+}
+.nav{
+   padding-bottom: 2px;
 }
 
     .tituloRedes{
@@ -29,8 +33,31 @@
     
     }
     .tituloRedes h2{
-        font-size: 50px;
+        font-size: 20px;
         font-family:  map-get($fonts, secondaryFont);
+        padding-top: 2px;
+    }
+    .logoFb{
+        width: 20px;
+        height: 20px;
+    }
+    .logoIg{
+        width: 20px;
+        height: 20px;
+    }
+
+@media screen and (min-width: 768px){
+ 
+.colorFooter{   
+        .colorLinksFooter{
+            font-size: 30px;
+        }
+        .colorFirmaFooter{
+           font-size: 15px;
+        }  
+}
+    .tituloRedes h2{
+        font-size: 50px;
         padding-top: 10px;
     }
     .logoFb{
@@ -41,3 +68,4 @@
         width: 60px;
         height: 60px;
     }
+}

@@ -9,14 +9,47 @@
 .body {
     background-image: url(/Images/fondo\ body\ 2.jpg);
   }
+.main{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .carousel-caption{
     box-sizing: border-box;
     background: map-get($colours, navShadow);
-
+}
+.logoNav{
+    height: 50px;
+    width: 100%;
+}
+.carousel-caption{
+    box-sizing: border-box;
+    background: map-get($colours, navShadow);
 }
 .carousel-caption h1{
-    font-size: 80px;
+    font-size: 10px;
 }
 .carousel-caption p{
-    font-size: 20px;
+    font-size: 5px;
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoNav{
+        height: 160px;
+    }
+    .carousel-caption h1{
+        font-size: 80px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
 }

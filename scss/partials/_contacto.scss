@@ -9,6 +9,10 @@
 .body {
     background-image: url(/Images/fondo\ body\ 2.jpg);
   }
+.logoNav{
+    height: 50px;
+    width: 100%;
+}
 .headerContacto{
     background: url(/Images/Fondo\ contacto2.jpg) no-repeat center;
     background-size: cover;
@@ -25,4 +29,10 @@
     font-weight: bold;
     border-radius: 0.5rem;
     box-shadow: inset 1px 2px 22px 4px rgba(0, 0, 0, 0.85);
+}
+
+@media screen and (min-width: 768px){
+    .logoNav{
+        height: 160px;
+    }
 }
