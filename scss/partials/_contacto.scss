@@ -8,17 +8,21 @@
 }
 .body {
     background-image: url(/Images/fondo\ body\ 2.jpg);
-  }
-.logoNav{
-    height: 50px;
-    width: 100%;
+}
+
+.logoSinTacc{
+    height: 10px;
+    width: 10px;
 }
 .headerContacto{
     background: url(/Images/Fondo\ contacto2.jpg) no-repeat center;
     background-size: cover;
     position: relative;
-    height: 1200px;
     justify-content: center;
+    height: 1000px;
+}
+.titulo{
+    font-family:  map-get($fonts, secondaryFont);
 }
 .form{
     max-width: 35em;
@@ -31,8 +35,12 @@
     box-shadow: inset 1px 2px 22px 4px rgba(0, 0, 0, 0.85);
 }
 
-@media screen and (min-width: 768px){
-    .logoNav{
-        height: 160px;
-    }
+@media screen and (min-width: 768px){ 
+.headerContacto{
+    height: 1200px;
+}
+.logoSinTacc{
+    height: 100px;
+    width: 100px;
+}
 }

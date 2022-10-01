@@ -30,6 +30,16 @@
   background-color: rgb(235, 125, 52);
 }
 
+.logoNav {
+  height: 50px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .logoNav {
+    height: 160px;
+  }
+}
 /*----------------------------Footer----------------------------*/
 .colorFooter {
   box-sizing: border-box;
@@ -112,11 +122,6 @@
   background-image: url(/Images/fondo\ body\ 2.jpg);
 }
 
-.logoNav {
-  height: 50px;
-  width: 100%;
-}
-
 .header {
   background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
   background-size: cover;
@@ -137,20 +142,17 @@
 }
 .contenedorIndex1 .titulosIndex-1 h1 {
   font-size: 45px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Dancing Script", cursive;
 }
 .contenedorIndex1 .titulosIndex-1 h2 {
   color: white;
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Dancing Script", cursive;
 }
 
 @media screen and (min-width: 768px) {
-  .logoNav {
-    height: 160px;
-  }
   .header {
     background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
     background-size: cover;
@@ -179,19 +181,12 @@
   font-family: "Courier Prime", monospace;
 }
 
-.logoNav {
-  height: 50px;
-  width: 100%;
-}
-
 .titulo {
   font-size: 50px;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
-  .logoNav {
-    height: 160px;
-  }
   .titulo {
     font-size: 80px;
   }
@@ -213,7 +208,7 @@
   background: url(/Images/Mesa\ desayuno.jpg) no-repeat center;
   background-size: cover;
   position: relative;
-  height: 1500px;
+  height: 3200px;
 }
 
 .logoSinTacc {
@@ -222,7 +217,7 @@
 
 .titleProd {
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 80px;
   font-family: "Dancing Script", cursive;
 }
@@ -242,6 +237,18 @@
   border-bottom-color: rgba(225, 225, 225, 0.1);
 }
 
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-weight: 600;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
 .imagen {
   border-radius: 8px;
 }
@@ -255,6 +262,11 @@
   background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.3));
 }
 
+@media screen and (min-width: 768px) {
+  .headerProductos {
+    height: 1900px;
+  }
+}
 /*----------------------------Página quienes somos----------------------------*/
 * {
   padding: 0;
@@ -269,7 +281,7 @@
 }
 
 .main {
-  height: 350px;
+  height: 480px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -330,17 +342,21 @@
   background-image: url(/Images/fondo\ body\ 2.jpg);
 }
 
-.logoNav {
-  height: 50px;
-  width: 100%;
+.logoSinTacc {
+  height: 10px;
+  width: 10px;
 }
 
 .headerContacto {
   background: url(/Images/Fondo\ contacto2.jpg) no-repeat center;
   background-size: cover;
   position: relative;
-  height: 1200px;
   justify-content: center;
+  height: 1000px;
+}
+
+.titulo {
+  font-family: "Dancing Script", cursive;
 }
 
 .form {
@@ -355,7 +371,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .logoNav {
-    height: 160px;
+  .headerContacto {
+    height: 1200px;
+  }
+  .logoSinTacc {
+    height: 100px;
+    width: 100px;
   }
 }/*# sourceMappingURL=style.css.map */

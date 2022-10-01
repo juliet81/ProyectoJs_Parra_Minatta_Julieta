@@ -8,10 +8,7 @@
 .body {
     background-image: url(/Images/fondo\ body\ 2.jpg);
   }
-  .logoNav{
-    height: 50px;
-    width: 100%;
-}
+  
   .header {
     background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
     background-size: cover;
@@ -33,20 +30,18 @@
 
     .titulosIndex-1 h1{
         font-size: 45px;
-        font-weight: 500;
+        font-weight: 600;
         font-family:  map-get($fonts, secondaryFont);
     }
     .titulosIndex-1 h2{
         color: white;
         font-size: 35px;
-        font-weight: 500;
+        font-weight: 600;
         font-family: map-get($fonts, secondaryFont);
     }
 }
 @media screen and (min-width: 768px){
-    .logoNav{
-        height: 160px;
-    }
+   
     .header {
         background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
         background-size: cover;

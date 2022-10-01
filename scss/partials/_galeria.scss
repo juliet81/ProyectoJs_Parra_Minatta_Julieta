@@ -6,17 +6,12 @@
     list-style-type: none;
     font-family:  map-get($fonts, primaryFont);
 }
-.logoNav{
-    height: 50px;
-    width: 100%;
-}
+
 .titulo{
     font-size: 50px;
+    font-weight: 600;
 }
 @media screen and (min-width: 768px){
-    .logoNav{
-        height: 160px;
-    }
     .titulo{
         font-size: 80px;
     }
