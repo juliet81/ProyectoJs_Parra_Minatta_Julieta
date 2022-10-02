@@ -1,0 +1,9 @@
+.primaryCard{ 
+    @extend %cardBase;
+    background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225,0.3));
+}
+.secondaryCard{
+    @extend %cardBase;
+    color: map-get($fontColours, primaryColour);
+    background-color: map-get($backgroundColour, cardProductos1);
+}

@@ -11,9 +11,35 @@ $fonts:(
     primaryFont:('Courier Prime', monospace),
     secondaryFont: ('Dancing Script', cursive)
 );
-
+$fontColours:(
+    primaryColour:  rgb(0, 0, 0),
+    secondarycolour: rgb(255, 255, 255)
+);
 $colours:(
     buttonColour:rgb(0, 128, 64),
-    buttonfont: rgb(255, 255, 255),
-    navShadow:rgba(0, 0, 0, 0.5),
-)
+    buttonFont: rgb(255, 255, 255),
+);
+$backgroundColour:(
+    form: rgba(120, 119, 123, 0.3),
+    cardProductos1: rgba(225, 225, 225, 0.1)
+);
+$shadows:(
+    formulario: rgba(0, 0, 0, 0.85),
+    header: rgba(0, 0, 0, 0.5),
+    carouselText: rgba(0, 0, 0, 0.5),
+    footer: rgba(0, 0, 0, 0.5)
+);
+$backgroundImages:(
+    primaryBody: url(/Images/fondo\ body.jpg),
+    secondaryBody:url(/Images/fondo\ body\ 2.jpg),
+    primaryIndex:url(/Images/Taza\ Nanáh.jpg),
+    primaryContacto: url(/Images/Fondo\ contacto2.jpg),
+    secondaryContacto:url(/Images/Fondo\ contactanos.jpg),
+    primaryProductos: url(/Images/Mesa\ desayuno.jpg)
+);
+$bordersCards:(
+    top:rgba(225, 225, 225, 0.5),
+    left:rgba(225, 225, 225, 0.5),
+    right:rgba(225, 225, 225, 0.1),
+    bottom:rgba(225, 225, 225, 0.1)
+);

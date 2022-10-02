@@ -7,6 +7,20 @@
         border-bottom: 05px solid;
 }
 
+%cardBase{
+    width: 90%;
+    max-width: 400px;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem map-get($shadows, basic);
+    border-top-color: map-get($bordersCards, top);
+    border-left-color: map-get($bordersCards, left);
+    border-right-color:map-get($bordersCards, right) ;
+    border-bottom-color: map-get($bordersCards, bottom);
+}
+
 %flex{
     display: flex;
     flex-direction: row;

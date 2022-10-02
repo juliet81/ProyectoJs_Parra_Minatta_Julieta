@@ -7,11 +7,11 @@
     font-family:  map-get($fonts, primaryFont);
 }
 .body {
-    background-image: url(/Images/fondo\ body\ 2.jpg);
+    background-image: map-get($backgroundImages, secondaryBody);
   }
   
 .headerProductos{
-    background: url(/Images/Mesa\ desayuno.jpg) no-repeat center;
+    background: map-get($backgroundImages, primaryProductos) no-repeat center;
     background-size: cover;
     position: relative;
     height: 3200px;
@@ -28,19 +28,6 @@
         font-family:  map-get($fonts, secondaryFont);
         
     }
-    .card{
-        width: 90%;
-        max-width: 400px;
-        padding: 1rem 1rem;
-        border-radius: 1rem;
-        border: 1px solid transparent;
-        backdrop-filter: blur(1rem);
-        box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5) ;
-        border-top-color: rgba(225, 225, 225, 0.5);
-        border-left-color: rgba(225, 225, 225, 0.5);
-        border-right-color: rgba(225, 225, 225, 0.1);
-        border-bottom-color: rgba(225, 225, 225, 0.1);
-    }
     .card-title{
         font-weight: 600;
     }
@@ -52,14 +39,6 @@
     }
     .imagen{
         border-radius: 8px;
-    }
-    .cb1{
-        color: rgb(0, 0, 0, );
-        background-color: rgba(225, 225, 225, 0.1);
-    }
-    .cb2{
-       
-        background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225,0.3));
     }
 
     @media screen and (min-width: 768px){

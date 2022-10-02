@@ -6,11 +6,11 @@
     list-style-type: none;
 }
 .body {
-    background-image: url(/Images/fondo\ body\ 2.jpg);
+    background-image: map-get($backgroundImages, secondaryBody);
   }
   
   .header {
-    background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
+    background: map-get($backgroundImages, primaryIndex) no-repeat center;
     background-size: cover;
     min-height: 1300px;
     position: relative;
@@ -34,7 +34,7 @@
         font-family:  map-get($fonts, secondaryFont);
     }
     .titulosIndex-1 h2{
-        color: white;
+        color: map-get($fontColours, secondarycolour);
         font-size: 35px;
         font-weight: 600;
         font-family: map-get($fonts, secondaryFont);
@@ -43,7 +43,7 @@
 @media screen and (min-width: 768px){
    
     .header {
-        background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
+        background: map-get($backgroundImages, primaryIndex) no-repeat center;
         background-size: cover;
         position: relative;
       }

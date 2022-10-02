@@ -1,7 +1,7 @@
 /*----------------------------Footer----------------------------*/
 .colorFooter{
     box-sizing: border-box;
-    background: map-get($colours, navShadow);
+    background: map-get($shadows, footer);
     font-family: map-get($fonts, primaryFont);
         .colorLinksFooter{
             font-size: 10px;

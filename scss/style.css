@@ -1,4 +1,28 @@
 @charset "UTF-8";
+.secondaryCard, .primaryCard {
+  width: 90%;
+  max-width: 400px;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem;
+  border-top-color: rgba(225, 225, 225, 0.5);
+  border-left-color: rgba(225, 225, 225, 0.5);
+  border-right-color: rgba(225, 225, 225, 0.1);
+  border-bottom-color: rgba(225, 225, 225, 0.1);
+}
+
+.primaryCard {
+  background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.3));
+}
+
+.secondaryCard {
+  color: rgb(0, 0, 0);
+  background-color: rgba(225, 225, 225, 0.1);
+}
+
 .boton {
   border: solid;
   padding: 10px;
@@ -146,7 +170,7 @@
   font-family: "Dancing Script", cursive;
 }
 .contenedorIndex1 .titulosIndex-1 h2 {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 600;
   font-family: "Dancing Script", cursive;
@@ -222,21 +246,6 @@
   font-family: "Dancing Script", cursive;
 }
 
-.card {
-  width: 90%;
-  max-width: 400px;
-  padding: 1rem 1rem;
-  border-radius: 1rem;
-  border: 1px solid transparent;
-  -webkit-backdrop-filter: blur(1rem);
-          backdrop-filter: blur(1rem);
-  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
-  border-top-color: rgba(225, 225, 225, 0.5);
-  border-left-color: rgba(225, 225, 225, 0.5);
-  border-right-color: rgba(225, 225, 225, 0.1);
-  border-bottom-color: rgba(225, 225, 225, 0.1);
-}
-
 .card-title {
   font-weight: 600;
 }
@@ -253,15 +262,6 @@
   border-radius: 8px;
 }
 
-.cb1 {
-  color: rgb(0, 0, 0);
-  background-color: rgba(225, 225, 225, 0.1);
-}
-
-.cb2 {
-  background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.3));
-}
-
 @media screen and (min-width: 768px) {
   .headerProductos {
     height: 1900px;
@@ -276,21 +276,12 @@
   font-family: "Courier Prime", monospace;
 }
 
-.body {
-  background-image: url(/Images/fondo\ body\ 2.jpg);
-}
-
 .main {
   height: 480px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.carousel-caption {
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .logoNav {
@@ -336,10 +327,6 @@
   box-sizing: border-box;
   list-style-type: none;
   font-family: "Courier Prime", monospace;
-}
-
-.body {
-  background-image: url(/Images/fondo\ body\ 2.jpg);
 }
 
 .logoSinTacc {

@@ -8,6 +8,6 @@
 }
 .primario{
     background-color: map-get($colours, buttonColour);
-    color: map-get($colours, buttonfont);
+    color: map-get($colours, buttonFont);
     box-shadow: 5px 7px 7px 1px rgba(0,0,0,0.5);
 }

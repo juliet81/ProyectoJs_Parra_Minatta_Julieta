@@ -7,7 +7,7 @@
     font-family: map-get($fonts, primaryFont);
 }
 .body {
-    background-image: url(/Images/fondo\ body\ 2.jpg);
+    background-image: map-get($backgroundImages, body2);
 }
 
 .logoSinTacc{
@@ -15,7 +15,7 @@
     width: 10px;
 }
 .headerContacto{
-    background: url(/Images/Fondo\ contacto2.jpg) no-repeat center;
+    background: map-get($backgroundImages, primaryContacto) no-repeat center;
     background-size: cover;
     position: relative;
     justify-content: center;
@@ -28,11 +28,11 @@
     max-width: 35em;
     padding: 1em;
     margin: 0 auto;
-    color: rgb(0, 0, 0);
-    background-color: rgba(120, 119, 123, 0.3);
+    color: map-get($fontColours, primaryColour);
+    background-color: map-get($backgroundColour, form);
     font-weight: bold;
     border-radius: 0.5rem;
-    box-shadow: inset 1px 2px 22px 4px rgba(0, 0, 0, 0.85);
+    box-shadow: inset 1px 2px 22px 4px map-get($shadows, formulario);
 }
 
 @media screen and (min-width: 768px){ 
