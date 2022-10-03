@@ -143,11 +143,11 @@
 }
 
 .body {
-  background-image: url(/Images/fondo\ body\ 2.jpg);
+  background-image: url(/images/fondoBody2.jpg);
 }
 
 .header {
-  background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
+  background: url(/images/tazaNanah.jpg) no-repeat center;
   background-size: cover;
   min-height: 1300px;
   position: relative;
@@ -178,7 +178,7 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    background: url(/Images/Taza\ Nanáh.jpg) no-repeat center;
+    background: url(/images/tazaNanah.jpg) no-repeat center;
     background-size: cover;
     position: relative;
   }
@@ -225,11 +225,11 @@
 }
 
 .body {
-  background-image: url(/Images/fondo\ body\ 2.jpg);
+  background-image: url(/images/fondoBody2.jpg);
 }
 
 .headerProductos {
-  background: url(/Images/Mesa\ desayuno.jpg) no-repeat center;
+  background: url(/images/mesaDesayuno.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   height: 3200px;
@@ -335,7 +335,7 @@
 }
 
 .headerContacto {
-  background: url(/Images/Fondo\ contacto2.jpg) no-repeat center;
+  background: url(/images/fondoContacto2.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   justify-content: center;
