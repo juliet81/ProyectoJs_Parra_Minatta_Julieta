@@ -261,7 +261,7 @@
 }
 
 .headerProductos {
-  background: url("../../Images/mesaDesayuno.jpg") no-repeat center;
+  background: url(/Images/mesaDesayuno.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   height: 3200px;
