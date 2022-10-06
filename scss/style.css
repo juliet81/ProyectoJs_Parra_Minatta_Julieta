@@ -143,11 +143,12 @@
 }
 
 .body {
-  background-image: url("../../Images/fondoBody2.jpg");
+  background-image: url("../Images/fondoBody2.jpg");
 }
 
 .header {
-  background-image: url(/Images/tazaNanahComp.jpg) no-repeat center;
+  background-image: url("../Images/tazaNanah.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   min-height: 1300px;
   position: relative;
@@ -178,7 +179,7 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    background: url("../../Images/tazaNanah.jpg") no-repeat center;
+    background: url("../Images/tazaNanah.jpg") no-repeat center;
     background-size: cover;
     position: relative;
   }
@@ -207,7 +208,7 @@
 
 .body {
   height: 100%;
-  background-image: url("../../Images/fondoBody2.jpg");
+  background-image: url("../Images/fondoBody2.jpg");
   position: relative;
 }
 
@@ -257,7 +258,7 @@
 }
 
 .body {
-  background-image: url("../../Images/fondoBody2.jpg");
+  background-image: url("../Images/fondoBody2.jpg");
 }
 
 .headerProductos {
