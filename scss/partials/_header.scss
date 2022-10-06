@@ -13,6 +13,12 @@
             background-color: map-get($links, colorHoverNav);
         }
 }
+#hamburguesa{
+    .colorLinksNav{
+        font-size: 15px;
+    }
+    
+}
 .logoNav{
     height: 50px;
     width: 100%;
