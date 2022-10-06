@@ -11,8 +11,9 @@
   }
   
 .headerProductos{
-    background: url(/Images/mesaDesayuno.jpg) no-repeat center;
+    background: map-get($backgroundImages, primaryProductos);
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     height: 3200px;
 

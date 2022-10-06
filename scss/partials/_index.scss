@@ -12,10 +12,11 @@
   .header {
     background-image:map-get($backgroundImages, primaryIndex);
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1300px;
+    background-size:auto;
+    min-height: 750px;
     position: relative;
-    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
   }
   .contenedorIndex1{
     .titulosIndex-1{
@@ -24,7 +25,7 @@
         font-style: italic; 
         margin-right: 5%;
         margin-left: 5%;
-        top: 18%;
+        top: 45%;
         transform: translateY(-40%);
         font-family:  map-get($fonts, secondaryFont);
     }
@@ -47,20 +48,21 @@
         background: map-get($backgroundImages, primaryIndex) no-repeat center;
         background-size: cover;
         position: relative;
+        height: 1000px;
       }
     .contenedorIndex1{
             .titulosIndex-1{
                 text-align: center;
                 position: absolute;
                 left: 50%;
-                top: 35%;
+                top: 40%;
                 transform: translateX(-50%) translateY(-40%);
             }
             .titulosIndex-1 h1{
-                font-size: 80px;
+                font-size: 70px;
             }
             .titulosIndex-1 h2{
-                font-size: 70px;
+                font-size: 60px;
             }
     }
 }

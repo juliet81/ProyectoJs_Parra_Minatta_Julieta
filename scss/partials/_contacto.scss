@@ -15,7 +15,8 @@
     width: 10px;
 }
 .headerContacto{
-    background: url(./../../Images/fondoContacto2.jpg) no-repeat center;
+    background: map-get($backgroundImages, primaryContacto);
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     justify-content: center;
