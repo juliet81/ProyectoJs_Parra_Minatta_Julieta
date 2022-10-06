@@ -10,7 +10,8 @@
   }
   
   .header {
-    background-image: url("./../../Images/tazaNanah.jpg") no-repeat center;
+    background-image:map-get($backgroundImages, primaryIndex);
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 1300px;
     position: relative;
