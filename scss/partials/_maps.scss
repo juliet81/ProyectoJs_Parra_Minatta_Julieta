@@ -31,11 +31,11 @@ $shadows:(
 );
 $backgroundImages:(
     primaryBody: url("../Images/fondoBody.jpg"),
-    secondaryBody:url("../../Images/fondoBody2.jpg"),
+    secondaryBody:url("../Images/fondoBody2.jpg"),
     primaryIndex:url("../Images/tazaNanah.jpgit pusg"),
     primaryContacto: url("../Images/fondoContacto2.jpg"),
-    secondaryContacto:url("../../Images/fondoContactanos.jpg"),
-    primaryProductos: url("../../Images/mesaDesayuno.jpg")
+    secondaryContacto:url("../Images/fondoContactanos.jpg"),
+    primaryProductos: url("../Images/mesaDesayuno.jpg")
 );
 $bordersCards:(
     top:rgba(225, 225, 225, 0.5),
