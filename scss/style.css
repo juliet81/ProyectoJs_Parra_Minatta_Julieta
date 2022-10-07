@@ -46,26 +46,24 @@
   padding-right: 30px;
 }
 .navbar .colorLinksNav {
-  font-size: 30px;
+  font-size: 13px;
   color: rgb(255, 255, 255);
   transition: 0.5s ease;
 }
 .navbar .navbar-nav .nav-link:hover {
   background-color: rgb(235, 125, 52);
 }
-
-#hamburguesa .colorLinksNav {
-  font-size: 15px;
-}
-
-.logoNav {
-  height: 50px;
+.navbar .logoNav {
+  height: 65px;
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .logoNav {
-    height: 160px;
+    height: 130px;
+  }
+  .colorLinksNav {
+    font-size: 100px;
   }
 }
 /*----------------------------Footer----------------------------*/
@@ -75,7 +73,7 @@
   font-family: "Courier Prime", monospace;
 }
 .colorFooter .colorLinksFooter {
-  font-size: 10px;
+  font-size: 13px;
   color: rgb(209, 216, 218);
   transition: 0.5s ease;
 }
@@ -84,7 +82,7 @@
 }
 .colorFooter .colorFirmaFooter {
   padding-top: 2px;
-  font-size: 5px;
+  font-size: 10px;
   color: rgb(209, 216, 218);
 }
 

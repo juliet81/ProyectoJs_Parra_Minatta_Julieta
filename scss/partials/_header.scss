@@ -5,26 +5,26 @@
     font-family: map-get($fonts, primaryFont);
     padding-right: 30px;
         .colorLinksNav{
-            font-size: 30px;
+            font-size: 13px;
             color: map-get($links, colorLinksNav);
             transition: 0.5s ease;
         }
         .navbar-nav .nav-link:hover{
             background-color: map-get($links, colorHoverNav);
         }
+        .logoNav{
+            height: 65px;
+            width: 100%;
+        }
 }
-#hamburguesa{
-    .colorLinksNav{
-        font-size: 15px;
-    }
-    
-}
-.logoNav{
-    height: 50px;
-    width: 100%;
-}
+
+
 @media screen and (min-width: 768px){
     .logoNav{
-        height: 160px;
+        height: 130px;
+    }
+
+    .colorLinksNav{
+        font-size: 100px;
     }
 }
