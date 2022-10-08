@@ -4,7 +4,7 @@
     background: map-get($shadows, footer);
     font-family: map-get($fonts, primaryFont);
         .colorLinksFooter{
-            font-size: 13px;
+            font-size: 20px;
             color:map-get($links, colorLinksFooter);
             transition: 0.5s ease;
         }
@@ -33,17 +33,17 @@
     
     }
     .tituloRedes h2{
-        font-size: 20px;
+        font-size: 30px;
         font-family:  map-get($fonts, secondaryFont);
         padding-top: 2px;
     }
     .logoFb{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
     .logoIg{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
 
 @media screen and (min-width: 768px){

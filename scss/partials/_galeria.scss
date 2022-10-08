@@ -12,6 +12,7 @@
     background-image: map-get($backgroundImages, secondaryBody); 
     position: relative;
 }
+
 .titulo{
     text-align: center;
     padding-top: 70px;
@@ -22,7 +23,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 .swiper-slide {
     background-position: center;
     background-size: cover;

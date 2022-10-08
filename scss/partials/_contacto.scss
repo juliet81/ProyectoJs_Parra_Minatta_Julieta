@@ -19,11 +19,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-position-x: center;
+    background-position-y: center;
     justify-content: center;
     height: 1100px;
 }
 .titulo{
     font-family:  map-get($fonts, secondaryFont);
+    font-size: 80px;
+}
+.form-label{
+    font-size: 20px;
 }
 .form{
     max-width: 35em;
@@ -37,11 +43,22 @@
 }
 
 @media screen and (min-width: 768px){ 
-.headerContacto{
-    height: 1200px;
-}
-.logoSinTacc{
-    height: 100px;
-    width: 100px;
-}
+    .headerContacto{
+        background: map-get($backgroundImages, primaryContacto);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        justify-content: center;
+        height: 1100px;
+    }
+    .headerContacto{
+        height: 1200px;
+    }
+    form{ 
+        color: map-get($fontColours, primaryColour);
+    }
+    .logoSinTacc{
+        height: 100px;
+        width: 100px;
+    }
 }
