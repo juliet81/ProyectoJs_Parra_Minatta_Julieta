@@ -1,48 +1,48 @@
 /*----------------------------Página Galería----------------------------*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    font-family:  map-get($fonts, primaryFont);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: map-get($fonts, primaryFont);
 }
 
 .body {
-    height: 100%;
-    background-image: map-get($backgroundImages, secondaryBody); 
-    position: relative;
+  height: 100%;
+  background-image: map-get($backgroundImages, secondaryBody);
+  position: relative;
 }
 
-.titulo{
-    text-align: center;
-    padding-top: 70px;
-    font-family:  'Dancing Script', cursive;
+.titulo {
+  text-align: center;
+  padding-top: 70px;
+  font-family: "Dancing Script", cursive;
 }
 .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    padding-bottom: 30px;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  padding-bottom: 30px;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
-    .titulo{
-        font-size: 50px;
-        font-weight: 600;
-    }
-@media screen and (min-width: 768px){
-    .titulo{
-        font-size: 80px;
-    }
+.titulo {
+  font-size: 50px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .titulo {
+    font-size: 80px;
+  }
 }

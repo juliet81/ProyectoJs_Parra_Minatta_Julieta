@@ -1,66 +1,65 @@
 /*----------------------------Página index----------------------------*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
 }
 .body {
-    background-image: map-get($backgroundImages, secondaryBody);
-  }
-  
-  .header {
-    background-image:map-get($backgroundImages, primaryIndex);
-    background-repeat: no-repeat;
-    background-size:auto;
-    min-height: 750px;
-    position: relative;
-    background-position-x: center;
-    background-position-y: center;
-  }
-  .contenedorIndex1{
-    .titulosIndex-1{
-        text-align: center;
-        font-style: italic; 
-        margin-right: 5%;
-        margin-left: 5%;
-        margin-top: 35%;
-        font-family:  map-get($fonts, secondaryFont);
-    }
-
-    .titulosIndex-1 h1{
-        font-size: 45px;
-        font-weight: 600;
-        font-family:  map-get($fonts, secondaryFont);
-    }
-    .titulosIndex-1 h2{
-        color: map-get($fontColours, primarycolour);
-        font-size: 35px;
-        font-weight: 600;
-        font-family: map-get($fonts, secondaryFont);
-    }
+  background-image: map-get($backgroundImages, secondaryBody);
 }
-@media screen and (min-width: 768px){
-   
-    .header {
-        background: map-get($backgroundImages, primaryIndex) no-repeat center;
-        background-size: cover;
-        position: relative;
-        height: 1000px;
-      }
-    .contenedorIndex1{
-            .titulosIndex-1{
-                text-align: center;
-                position: absolute;
-                left: 50%;
-                top: 40%;
-                transform: translateX(-50%) translateY(-40%);
-            }
-            .titulosIndex-1 h1{
-                font-size: 70px;
-            }
-            .titulosIndex-1 h2{
-                font-size: 60px;
-            }
+
+.header {
+  background-image: map-get($backgroundImages, primaryIndex);
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 750px;
+  position: relative;
+  background-position-x: center;
+  background-position-y: center;
+}
+.contenedorIndex1 {
+  .titulosIndex-1 {
+    text-align: center;
+    font-style: italic;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 35%;
+    font-family: map-get($fonts, secondaryFont);
+  }
+
+  .titulosIndex-1 h1 {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: map-get($fonts, secondaryFont);
+  }
+  .titulosIndex-1 h2 {
+    color: map-get($fontColours, primarycolour);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: map-get($fonts, secondaryFont);
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    background: map-get($backgroundImages, primaryIndex) no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+  }
+  .contenedorIndex1 {
+    .titulosIndex-1 {
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 10%;
+      transform: translateX(-50%) translateY(-80%);
     }
+    .titulosIndex-1 h1 {
+      font-size: 70px;
+    }
+    .titulosIndex-1 h2 {
+      font-size: 60px;
+    }
+  }
 }

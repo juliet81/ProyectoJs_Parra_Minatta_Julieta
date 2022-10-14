@@ -1,49 +1,48 @@
 /*----------------------------Página productos----------------------------*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    font-family:  map-get($fonts, primaryFont);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: map-get($fonts, primaryFont);
 }
 .body {
-    background-image: map-get($backgroundImages, secondaryBody);
-  }
-  
-.headerProductos{
-    background: map-get($backgroundImages, primaryProductos);
+  background-image: map-get($backgroundImages, secondaryBody);
+}
+
+.headerProductos {
+  background: map-get($backgroundImages, primaryProductos);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.logoSinTacc {
+  padding: 20px;
+}
+
+.titleProd {
+  text-align: center;
+  font-weight: 600;
+  font-size: 80px;
+  font-family: map-get($fonts, secondaryFont);
+}
+.card-title {
+  font-weight: 600;
+}
+.card-text {
+  font-weight: 600;
+}
+.subtitle {
+  font-weight: 600;
+}
+.imagen {
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .headerProductos {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: 3200px;
-
+  }
 }
-    .logoSinTacc{
-        padding: 20px;
-}
-
-    .titleProd{
-        text-align: center;
-        font-weight: 600;
-        font-size: 80px;
-        font-family:  map-get($fonts, secondaryFont);
-        
-    }
-    .card-title{
-        font-weight: 600;
-    }
-    .card-text{
-        font-weight: 600;
-    }
-    .subtitle{
-        font-weight: 600;
-    }
-    .imagen{
-        border-radius: 8px;
-    }
-
-    @media screen and (min-width: 768px){
-        .headerProductos{
-            height: 1900px;
-        }
-    }

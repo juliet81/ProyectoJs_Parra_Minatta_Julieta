@@ -1,71 +1,68 @@
 /*----------------------------Footer----------------------------*/
-.colorFooter{
-    box-sizing: border-box;
-    background: map-get($shadows, footer);
-    font-family: map-get($fonts, primaryFont);
-        .colorLinksFooter{
-            font-size: 20px;
-            color:map-get($links, colorLinksFooter);
-            transition: 0.5s ease;
-        }
-        .footer .nav .nav-link:hover{
-            background-color: map-get($links, colorHoverFooter);
-        }
-        .colorFirmaFooter{
-            padding-top: 2px;
-            font-size: 10px;
-            color:map-get($links, colorFirmaFooter);
-        }
-        
+.colorFooter {
+  box-sizing: border-box;
+  background: map-get($shadows, footer);
+  font-family: map-get($fonts, primaryFont);
+  .colorLinksFooter {
+    font-size: 20px;
+    color: map-get($links, colorLinksFooter);
+    transition: 0.5s ease;
+  }
+  .footer .nav .nav-link:hover {
+    background-color: map-get($links, colorHoverFooter);
+  }
+  .colorFirmaFooter {
+    padding-top: 2px;
+    font-size: 10px;
+    color: map-get($links, colorFirmaFooter);
+  }
 }
-.nav{
-   padding-bottom: 2px;
+.nav {
+  padding-bottom: 2px;
 }
 
-    .tituloRedes{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-        color:map-get($links, colorLinksFooter);
-        font-style: italic;
-        font-family:  map-get($fonts, secondaryFont);
-    
-    }
-    .tituloRedes h2{
-        font-size: 30px;
-        font-family:  map-get($fonts, secondaryFont);
-        padding-top: 2px;
-    }
-    .logoFb{
-        width: 30px;
-        height: 30px;
-    }
-    .logoIg{
-        width: 30px;
-        height: 30px;
-    }
-
-@media screen and (min-width: 768px){
- 
-.colorFooter{   
-        .colorLinksFooter{
-            font-size: 30px;
-        }
-        .colorFirmaFooter{
-           font-size: 15px;
-        }  
+.tituloRedes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: map-get($links, colorLinksFooter);
+  font-style: italic;
+  font-family: map-get($fonts, secondaryFont);
 }
-    .tituloRedes h2{
-        font-size: 50px;
-        padding-top: 10px;
+.tituloRedes h2 {
+  font-size: 30px;
+  font-family: map-get($fonts, secondaryFont);
+  padding-top: 2px;
+}
+.logoFb {
+  width: 30px;
+  height: 30px;
+}
+.logoIg {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .colorFooter {
+    .colorLinksFooter {
+      font-size: 30px;
     }
-    .logoFb{
-        width: 60px;
-        height: 60px;
+    .colorFirmaFooter {
+      font-size: 15px;
     }
-    .logoIg{
-        width: 60px;
-        height: 60px;
-    }
+  }
+  .tituloRedes h2 {
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .logoFb {
+    width: 60px;
+    height: 60px;
+  }
+  .logoIg {
+    width: 60px;
+    height: 60px;
+  }
 }

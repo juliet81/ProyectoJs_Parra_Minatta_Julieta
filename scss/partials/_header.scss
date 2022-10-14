@@ -1,29 +1,29 @@
 /*------------Cabecera de la página---------------*/
-.navbar{
-    box-sizing: border-box;
-    background: map-get($shadows, header);
-    font-family: map-get($fonts, primaryFont);
-    padding-right: 30px;
-        .colorLinksNav{
-            font-size: 30px;
-            color: map-get($links, colorLinksNav);
-            transition: 0.5s ease;
-        }
-        .navbar-nav .nav-link:hover{
-            background-color: map-get($links, colorHoverNav);
-        }
-        .logoNav{
-            height: 90px;
-            width: 100%;
-        }
+.navbar {
+  box-sizing: border-box;
+  background: map-get($shadows, header);
+  font-family: map-get($fonts, primaryFont);
+  padding-right: 30px;
+  .colorLinksNav {
+    font-size: 30px;
+    color: map-get($links, colorLinksNav);
+    transition: 0.5s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    background-color: map-get($links, colorHoverNav);
+  }
+  .logoNav {
+    height: 100px;
+    width: 100%;
+  }
 }
 
-@media screen and (min-width: 768px){
-    .logoNav{
-        height: 130px;
-    }
+@media screen and (min-width: 768px) {
+  .logoNav {
+    height: 130px;
+  }
 
-    .colorLinksNav{
-        font-size: 100px;
-    }
+  .colorLinksNav {
+    font-size: 100px;
+  }
 }

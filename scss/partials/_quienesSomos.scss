@@ -1,51 +1,51 @@
 /*----------------------------Página quienes somos----------------------------*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    font-family:  map-get($fonts, primaryFont);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: map-get($fonts, primaryFont);
 }
 .body {
-    background-image:  map-get($backgroundImages, body2);
-  }
-.main{
-    height: 480px;
+  background-image: map-get($backgroundImages, body2);
+}
+.main {
+  height: 480px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoNav {
+  height: 50px;
+  width: 100%;
+}
+.carousel-caption {
+  box-sizing: border-box;
+  background: map-get($shadows, carouselText);
+}
+.carousel-caption h1 {
+  font-size: 12px;
+}
+.carousel-caption p {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.logoNav{
-    height: 50px;
-    width: 100%;
-}
-.carousel-caption{
-    box-sizing: border-box;
-    background: map-get($shadows, carouselText);
-}
-.carousel-caption h1{
-    font-size: 12px;
-}
-.carousel-caption p{
-    font-size: 10px;
-}
-
-@media screen and (min-width: 768px){
-    .main{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logoNav{
-        height: 160px;
-    }
-    .carousel-caption h1{
-        font-size: 80px;
-    }
-    .carousel-caption p{
-        font-size: 20px;
-    }
+  }
+  .logoNav {
+    height: 160px;
+  }
+  .carousel-caption h1 {
+    font-size: 80px;
+  }
+  .carousel-caption p {
+    font-size: 20px;
+  }
 }

@@ -1,13 +1,14 @@
-.boton{
-        border: solid;
-        padding: 10px;
-        border-radius: 05px;
-        font-family: map-get($fonts, primaryFont);
-        cursor: pointer;
-        border-bottom: 05px solid;
+.boton {
+    border: solid;
+    padding: 10px;
+    border-radius: 05px;
+    font-family: map-get($fonts, primaryFont);
+    cursor: pointer;
+    border-bottom: 05px solid;
 }
-.primario{
+
+.primario {
     background-color: map-get($colours, buttonColour);
     color: map-get($colours, buttonFont);
-    box-shadow: 5px 7px 7px 1px rgba(0,0,0,0.5);
+    box-shadow: 5px 7px 7px 1px rgba(0, 0, 0, 0.5);
 }
