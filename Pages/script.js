@@ -39,7 +39,7 @@ do{
             cantidad = Number(prompt("cuántas unidades desea"));
             if(product && cantidad <= stockAlfajoresChoco){
                 alert("Su producto ha sido agregado al carrito");
-                stockIpad = stockIpad-cantidad;  
+                stockAlfajoresNuez = stockAlfajoresNuez-cantidad;  
             }else if(product && cantidad > stockAlfajoresChoco){
                 alert("Se ha agotado el stock")    
             }
@@ -52,10 +52,10 @@ do{
           descuentoTotal = precio - descuento;
             alert("el precio del Alfajor de Nuez es de $ " + precio + " " + "aplicando el descuento del 30%, te queda en $ " + descuentoTotal);
           cantidad = Number(prompt("cuántas unidades desea"));
-          if(product && cantidad <= stockIpad){
+          if(product && cantidad <= stockAlfajoresNuez){
             alert("Su producto ha sido agregado al carrito");
             stockAlfajoresChoco = stockAlfajoresChoco-cantidad;
-           }else if(product && cantidad > stockIpad){
+           }else if(product && cantidad > stockAlfajoresNuez){
             alert("Se ha agotado el stock")
             
             break;
