@@ -5,8 +5,8 @@ let producto = "";
  let stockAlfajoresNuez = 48;
  let descuento = 0;
  let descuentoTotal = 0;
-
- producto = Number(prompt("¿Que producto desea? 1- Alfajores de Coco; 2-Alfajores de Choco; 3-Alfajores de Nuez"));
+ do{
+ producto = Number(prompt("¿Que producto desea? 1- Alfajores de Coco 2-Alfajores de Choco 3-Alfajores de Nuez 4-Salir"));
    
  function mostrarProductos(product){
     switch(product){
@@ -62,11 +62,9 @@ let producto = "";
           alert("Usted no ha ingresado ningún producto!!")
           
     }
-  }
-  /*
-  mostrarProductos(product);
-
+  } 
     //stock de productos
   console.log(stockAlfajoresCoco);
   console.log(stockAlfajoresChoco);
-  console.log(stockAlfajoresNuez);*/
+  console.log(stockAlfajoresNuez);
+}while(opcion!=4)
