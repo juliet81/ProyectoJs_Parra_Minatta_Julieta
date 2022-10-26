@@ -5,8 +5,10 @@ let producto = "";
  let stockAlfajoresNuez = 48;
  let descuento = 0;
  let descuentoTotal = 0;
- do{
- producto = Number(prompt("¿Que producto desea? 1- Alfajores de Coco 2-Alfajores de Choco 3-Alfajores de Nuez 4-Salir"));
+do{
+  producto = Number(prompt("¿Que producto desea? 1- Alfajores de Coco 2-Alfajores de Choco 3-Alfajores de Nuez 4-Salir"));
+
+}while(producto < 1 || producto > 4); // vuelve a repetir la linea 9 mientras el numero elegido sea menor a 1 o mayor a 4
    
  function mostrarProductos(product){
     switch(product){
@@ -63,8 +65,8 @@ let producto = "";
           
     }
   } 
+  mostrarProductos(producto);
     //stock de productos
   console.log(stockAlfajoresCoco);
   console.log(stockAlfajoresChoco);
   console.log(stockAlfajoresNuez);
-}while(opcion!=4)
